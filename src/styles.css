@@ -1,0 +1,79 @@
+/* Basic Styles for the To-Do App */
+.todo-app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.todo-input input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.todo-input button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.todo-item button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 10px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.filter-buttons button:hover {
+  background-color: #0b79d1;
+}
